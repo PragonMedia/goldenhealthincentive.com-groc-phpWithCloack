@@ -908,17 +908,33 @@ body {
   align-items: center;
   gap: 0.5rem;
   font-weight: bold;
-  font-size: 1.5rem;
-  padding: 12px 4rem !important;
+  font-size: 2.5rem !important;
+  /* padding: 12px 24px !important; */
+  width: 80% !important;
   border-radius: 12px;
+  border-color: #0072c0 !important;
   text-decoration: none;
   transition: background-color 0.2s ease;
+}
+
+@media (width < 768px) {
+  .cta-dial {
+    font-size: 1.5rem !important;
+    width: 100% !important;
+  }
 }
 
 .cta-dial:hover {
   background: #c71816;
   color: white;
   text-decoration: none;
+}
+
+.last-chance-text {
+  font-size: 16px;
+  font-weight: bold;
+  color: #0072c0;
+  margin-top: 1rem;
 }
 
 .flow {
@@ -1071,7 +1087,7 @@ body {
 
 .qualified-title {
   color: var(--c-ok);
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: bold;
   margin-bottom: 1rem;
 }
