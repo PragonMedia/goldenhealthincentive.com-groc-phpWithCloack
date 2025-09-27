@@ -794,6 +794,12 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 }
 
+/* Add mobile padding to main content containers */
+.container {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 /* Navbar styles */
 .w-full {
   width: 100%;
@@ -948,7 +954,7 @@ body {
 .form-container {
   max-width: 720px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 20px 1rem;
 }
 
 .question-title {
